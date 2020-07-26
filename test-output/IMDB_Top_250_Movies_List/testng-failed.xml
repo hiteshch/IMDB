@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [IMDB_Top_250_Movies_List]">
+  <test thread-count="5" name="TestCase to retrieve Movie List(failed)">
+    <classes>
+      <class name="imdbTest.Test_GetTop250MovieDetails">
+        <methods>
+          <include name="droptable"/>
+          <include name="NavigateInIMDB"/>
+          <include name="setUp"/>
+          <include name="FetchData"/>
+          <include name="CreateFile"/>
+          <include name="GetURL"/>
+        </methods>
+      </class> <!-- imdbTest.Test_GetTop250MovieDetails -->
+    </classes>
+  </test> <!-- TestCase to retrieve Movie List(failed) -->
+</suite> <!-- Failed suite [IMDB_Top_250_Movies_List] -->
