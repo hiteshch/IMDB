@@ -1,4 +1,4 @@
-//File Runner
+//Runner
 
 package imdbTest;
 
